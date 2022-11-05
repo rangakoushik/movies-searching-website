@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ms+Madi&family=Volkhov:ital,wght@1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+  />
+  <link rel="stylesheet" href="register.css">
+    <center><title>Login Page</title></center>
+    <style>
+      h1{
+        font-family: 'Orelega One', cursive; 
+      }
+      label{
+        margin-top: 2rem;
+        font-size: 2rem;
+        font-family: 'Orelega One', cursive; 
+
+      }
+      a{
+        margin-top: 1rem;
+      }
+      p{
+        display: inline;
+        font-size: 2rem;
+        padding-left: 1rem;
+        margin-bottom:0.1rem;
+      }
+      #check{
+        width: 2rem;
+        height: 2rem;
+      }
+    </style>
+    <script>
+      function OnCheck(){
+      let x = document.getElementById("pass");
+      if(x.type == "password"){
+        x.type = "text";
+      }
+      else{
+        x.type = "password";
+      }
+    }
+    </script>
+</head>
+<body>
+    <center><h1>Login Page</h1></center>
+    <form>
+        <center><label for="Username">User ID:</label></center>
+        <center><input type="text" id="Username" placeholder="Enter Username"></center>
+        <center><label for="Password">Password:</label></center>
+        <center><input type="password" id="pass" placeholder="Enter Password"></center>
+        <center><input type="checkbox" onclick="OnCheck()" id="check"><p>Show Password</p></center>
+      </form>
+        
+      
+
+      <center><a class="btn btn-primary btn-lg" href="dashbrd.html">Login</a></center>
+    
+    
+  </body>
+</html>

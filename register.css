@@ -1,0 +1,73 @@
+label {
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: "Ms Madi", cursive;
+    font-family: "Volkhov", serif;
+    width: 20rem;
+  }
+  input {
+    padding: 3rem;
+    margin-bottom: 1.5rem;
+    border-radius: 3em;
+    border-color: rgb(118, 118, 200);
+    border-width: 0.5rem;
+    width: 30rem;
+    margin-bottom: 2rem;
+    display: inline-block;
+  }
+  .flip-front {
+    margin-top: 2rem;
+    display: inline-block;
+    border: 0.5rem solid;
+    border-radius: 2rem;
+    float: left;
+    padding: 3rem;
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  }
+  
+  .container {
+    position: absolute;
+    display: inline-block;
+    border: 0.5rem solid;
+    border-radius: 2rem;
+    text-align: center;
+  }
+  
+  a {
+    margin-top: 10rem;
+    display: inline;
+    font-family: "Ms Madi", cursive;
+    font-family: "Volkhov", serif;
+    font-size: 2rem;
+  }
+  
+  h1 {
+    font-style: oblique;
+    font-weight: bold;
+    font-family: "Ms Madi", cursive;
+    font-family: "Volkhov", serif;
+    padding-bottom: 3rem;
+  }
+  .reg {
+    margin-bottom: 2rem;
+    color: black;
+    background-color: rgb(113, 192, 192);
+    padding: 2rem;
+  }
+  .reg:hover {
+    border-radius: 1.5rem;
+    text-decoration: none;
+    padding: 2rem;
+    color: white;
+    background-color: rgb(96, 96, 126);
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: rgb(40, 66, 66);
+  }
+  p {
+    padding-top: 4rem;
+    font-size: 2rem;
+    font-family: "Ms Madi", cursive;
+    font-family: "Volkhov", serif;
+  }

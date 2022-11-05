@@ -1,0 +1,51 @@
+.container {
+  background-color: black;
+}
+.jumbotron h1 {
+  font-family: "Volkhov", serif;
+}
+.jumbotron .para {
+  font-family: "Ms Madi", cursive;
+  font-size: 3rem;
+}
+.btn {
+  margin: 1rem 1rem;
+}
+#circle {
+  background: rgb(230, 209, 173);
+  border-radius: 50%;
+  width: 15rem;
+  border: blue;
+  height: 15rem;
+  animation: walk 1s alternate infinite;
+  display: inline-block;
+}
+.text {
+  text-align: center;
+  padding: 3em 1.5em;
+  font-size: 1.5em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+@keyframes walk {
+  from {
+    -webkit-transform: translateY(10rem);
+  }
+  to {
+    -webkit-transform: translateY(20rem);
+  }
+}
+#circle:hover {
+  color: blue;
+  animation-play-state: paused;
+}
+.text:hover{
+  text-decoration: none;
+  font-size: 2.5rem;
+  animation-play-state: none;
+}
+.container {
+  border-color: rgb(71, 71, 145);
+  border-radius: 20%;
+  border: 3rem solid blue;
+}
